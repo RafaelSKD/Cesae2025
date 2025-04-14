@@ -1,0 +1,21 @@
+.with-button .see-more,
+.portfolio-side-box .see-more {
+    margin-top: 40px;
+    align-self: flex-end;
+    background-color: #4d4d4d8c;
+    color: #cccccc;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-weight: bold;
+}
+
+
+.with-button .see-more:hover,
+.portfolio-side-box .see-more:hover {
+    background-color: #4d4d4d8c;
+    color: #cccccc;
+}

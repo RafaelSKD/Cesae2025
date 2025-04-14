@@ -1,0 +1,61 @@
+.image-column {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-right: 10px;
+  }
+  
+  .image-column img {
+    display: flex;
+    justify-content: center; /* Alinha horizontalmente no centro */
+    align-items: center; /* Alinha verticalmente no centro */
+    display: flex;
+    width: 690px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 8px;
+    background-color: #afafaf8c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .portfolio-side-box {
+    font-size: 45px;
+    width: 450px;
+    height: 690px;
+    color: #cccccc;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  .portfolio-side-box p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .skill-bar {
+    margin: 10px 0;
+  }
+  
+  .skill-bar span {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .bar {
+    background-color: #4d4d4d8c;
+    border-radius: 8px;
+    height: 20px;
+    overflow: hidden;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: #b9232391;
+    border-radius: 8px 0 0 8px;
+    transition: width 0.5s ease-in-out;
+  }
+  

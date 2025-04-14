@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="rafaefer">
+    <meta name="description" content="Página exemplo de auto-biografia de Rafael Costa">
+    <meta name="keywords" content="HTML, CSS, JavaScript, JS, auto-biografia, desenvolvedor">
+    <title>Auto-biografia - Rafael Costa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body id="topo">
+
+    <header id="cabecalho">
+        <h1 class="titulo-principal">Rafael Costa</h1>
+        <p class="descricao">Olá, meu nome é Rafael Costa e sou estudante de Software Developer na CESAE.</p>
+        <p class="descricao">Atualmente estou a aprender HTML, CSS e JavaScript, com o objetivo de me tornar um programador completo.</p>
+    </header>
+
+    <main id="conteudo-principal">
+
+        <section class="secao-imagem">
+            <img 
+                src="https://th.bing.com/th/id/OIP.EjmBpMCS4Tbm6YhD8mzxGgHaEc?rs=1&pid=ImgDetMain" 
+                alt="Imagem representando software development" 
+                width="300" 
+                height="150"
+                class="imagem-destaque"
+            >
+        </section>
+
+        <section class="secao" id="skills-interesses">
+            <h2 class="subtitulo">Skills e Interesses</h2>
+            <ul class="lista-interesses">
+                <li>Conhecimentos de mecânica</li>
+                <li>Mountain Biking</li>
+                <li>Software Development</li>
+            </ul>
+        </section>
+
+        <section class="secao" id="contactos">
+            <h2 class="subtitulo">Contactos e Redes</h2>
+            <p class="email">Email: <a href="mailto:rcosta.skd@gmail.com">rcosta.skd@gmail.com</a></p>
+            <a href="https://www.linkedin.com/in/rafaelskd/" target="_blank" class="link-linkedin">LinkedIn</a>
+        </section>
+
+        <section class="secao" id="formulario-contacto">
+            <h2 class="subtitulo">Entre em contacto</h2>
+            <form action="processa.php" method="POST" class="formulario">
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome" required class="input-text"><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required class="input-text"><br><br>
+
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem" required class="textarea"></textarea><br><br>
+
+                <input type="submit" value="Enviar" class="botao-enviar">
+            </form>
+        </section>
+
+        <section class="secao" id="experiencia-profissional">
+            <h2 class="subtitulo">Experiência Profissional</h2>
+            <table border="1" class="tabela-experiencia">
+                <thead>
+                    <tr>
+                        <th>Empresa</th>
+                        <th>Cargo</th>
+                        <th>Período</th>
+                        <th>Local</th>
+                        <th>Responsabilidades</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>42 Porto</td>
+                        <td>Engenheiro de Software (Aprendiz)</td>
+                        <td>dez 2023 - presente</td>
+                        <td>Porto, Portugal</td>
+                        <td>Ciência da computação e Teste de software</td>
+                    </tr>
+                    <tr>
+                        <td>Cardan</td>
+                        <td>Técnico Automotivo</td>
+                        <td>dez 2022 - dez 2023</td>
+                        <td>Maia, Porto</td>
+                        <td>
+                            Diagnóstico e reparação de avarias;<br>
+                            Reparação de motores e caixas de velocidades;<br>
+                            Reparação de motores elétricos;<br>
+                            Marcas: Hyundai, Mazda, Fiat, Abarth, Alfa Romeo, Dodge, Jeep.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Caetano Star | Mercedes-Benz</td>
+                        <td>Mecânico de Automóvel</td>
+                        <td>jun 2021 - nov 2022</td>
+                        <td>Porto, Portugal</td>
+                        <td>
+                            Diagnóstico de avarias;<br>
+                            Orçamentos de peças e mão de obra;<br>
+                            Substituição de pneumáticos;<br>
+                            Alinhamento completo de direção;<br>
+                            Manutenção geral de viaturas (incluindo caixas automáticas).
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Caetano Baviera</td>
+                        <td>Mecânico</td>
+                        <td>set 2019 - mar 2021</td>
+                        <td>Vila Nova de Gaia</td>
+                        <td>
+                            Reparação de viaturas sinistradas;<br>
+                            Alinhamento e substituição de pneus;<br>
+                            Reparação de instalações elétricas;<br>
+                            Controlo de qualidade e preparação de viaturas novas.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>NORAUTO Portugal</td>
+                        <td>Mecânico</td>
+                        <td>mai 2019 - set 2019</td>
+                        <td>Vila Nova de Gaia</td>
+                        <td>
+                            Troca de óleo e filtros;<br>
+                            Travagem e substituição de anticongelante;<br>
+                            Alinhamento simples da direção.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+
+    <aside id="sobre-mim">
+        <h2 class="subtitulo">Sobre Mim</h2>
+        <p class="descricao-sobre">Sou um estudante apaixonado por tecnologia e desenvolvimento de software. Gosto de aprender novas linguagens de programação e explorar diferentes áreas da tecnologia.</p>
+        <p class="descricao-sobre">Além disso, sou um entusiasta de mountain biking e gosto de passar tempo ao ar livre.</p>
+        <p class="descricao-sobre">Estou sempre em busca de novos desafios e oportunidades para crescer profissionalmente.</p>
+        <p class="descricao-sobre">Se você está interessado em entrar em contato, não hesite em me enviar uma mensagem através do formulário acima.</p>
+        <p class="descricao-sobre">Estou ansioso para ouvir de você!</p>
+        <p class="descricao-sobre">Obrigado por visitar meu site!</p>
+    </aside>
+
+    <footer id="rodape">
+        <p>&copy; 2025 Rafael Costa</p>
+    </footer>
+
+</body>
+</html>
