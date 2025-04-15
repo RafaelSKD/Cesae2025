@@ -12,7 +12,9 @@
   <link rel="stylesheet" href="content.css">
   <link rel="stylesheet" href="layout.css">
   <link rel="stylesheet" href="navbar.css">
-  <link rel="stylesheet" href="portfolio.css">  
+  <link rel="stylesheet" href="portfolio.css">
+  <link rel="stylesheet" href="skills.css">
+  <link rel="stylesheet" href="contact.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap" rel="stylesheet">
@@ -20,8 +22,8 @@
 </head>
 <body>
   <div class="menu-box">
-    <button>Home</button>
-    <button>About Me</button>
+    <a href=""><button>Home</button></a>
+    <a href="#about-me"><button>About Me</button></a>
     <button>Experience</button>
     <button>Portfolio</button>
     <button>Contacts</button>
@@ -34,7 +36,7 @@
       <p>Here, you will find information about my journey, skills, and projects. I am excited to share my experiences and connect with like-minded individuals.</p>      
     </section>
 
-    <section class="content-box with-button full-transparent">
+    <section class="content-box with-button full-transparent" id="about-me">
       <h2>About me</h2>
       <p>🚗🔧 From Automotive Mechatronics to the World of Code 💻
 
@@ -46,83 +48,41 @@
       <button class="see-more">See more</button>
     </section>
 
-    <section class="content-box with-button">
-        <h2>Skills</h2>
-        <div class="skill-bar">
-          <span>C</span>
-          <div class="bar"><div class="progress" style="width: 85%;"></div></div>
-        </div>
-        <div class="skill-bar">
-          <span>C++</span>
-          <div class="bar"><div class="progress" style="width: 80%;"></div></div>
-        </div>
-        <div class="skill-bar">
-          <span>C#</span>
-          <div class="bar"><div class="progress" style="width: 75%;"></div></div>
-        </div>
-        <div class="skill-bar">
-          <span>CSS</span>
-          <div class="bar"><div class="progress" style="width: 90%;"></div></div>
-        </div>
-        <div class="skill-bar">
-          <span>HTML</span>
-          <div class="bar"><div class="progress" style="width: 95%;"></div></div>
-        </div>
-        <div class="skill-bar">
-          <span>Bash</span>
-          <div class="bar"><div class="progress" style="width: 70%;"></div></div>
-        </div>
-        <div class="skill-bar">
-          <span>SQL</span>
-          <div class="bar"><div class="progress" style="width: 75%;"></div></div>
-        </div>
-        <div class="skill-bar">
-          <span>Java</span>
-          <div class="bar"><div class="progress" style="width: 85%;"></div></div>
-        </div>
-        <div class="skill-bar">
-          <span>JavaScript</span>
-          <div class="bar"><div class="progress" style="width: 80%;"></div></div>
-        </div>
-        <div class="skill-bar">
-          <span>PHP</span>
-          <div class="bar"><div class="progress" style="width: 70%;"></div></div>
-        </div>
-        <div class="skill-bar">
-          <span>Design Patterns</span>
-          <div class="bar"><div class="progress" style="width: 65%;"></div></div>
-        </div>
-        <div class="skill-bar">
-          <span>Bootstrap (BS)</span>
-          <div class="bar"><div class="progress" style="width: 85%;"></div></div>
-        </div>
-        <div class="skill-bar">
-          <span>Web Services</span>
-          <div class="bar"><div class="progress" style="width: 60%;"></div></div>
-        </div>
-        <div class="skill-bar">
-          <span>XML / JSON</span>
-          <div class="bar"><div class="progress" style="width: 75%;"></div></div>
-        </div>
-        <div class="skill-bar">
-          <span>QA</span>
-          <div class="bar"><div class="progress" style="width: 65%;"></div></div>
-        </div>
-        <div class="skill-bar">
-          <span>Android</span>
-          <div class="bar"><div class="progress" style="width: 70%;"></div></div>
-        </div>
-        <div class="skill-bar">
-          <span>iOS</span>
-          <div class="bar"><div class="progress" style="width: 60%;"></div></div>
-        </div>
-        <div class="skill-bar">
-          <span>UML</span>
-          <div class="bar"><div class="progress" style="width: 85%;"></div></div>
-        </div>
-
-        <button class="see-more">See more</button>
-      </section>
+    <section class="skills-box with-button">
+      <h2>Skills</h2>
+    
+      <h1>Programming Languages</h1>
+      <div class="skill-bar"><span>C</span><div class="bar"><div class="progress" style="width: 85%;"></div></div></div>
+      <div class="skill-bar"><span>C++</span><div class="bar"><div class="progress" style="width: 80%;"></div></div></div>
+      <div class="skill-bar"><span>C#</span><div class="bar"><div class="progress" style="width: 75%;"></div></div></div>
+      <div class="skill-bar"><span>Java</span><div class="bar"><div class="progress" style="width: 85%;"></div></div></div>
+      <div class="skill-bar"><span>JavaScript</span><div class="bar"><div class="progress" style="width: 80%;"></div></div></div>
+      <div class="skill-bar"><span>PHP</span><div class="bar"><div class="progress" style="width: 70%;"></div></div></div>
+      <div class="skill-bar"><span>Bash</span><div class="bar"><div class="progress" style="width: 70%;"></div></div></div>
+    
+      <h1>Front-End Development</h1>
+      <div class="skill-bar"><span>HTML</span><div class="bar"><div class="progress" style="width: 95%;"></div></div></div>
+      <div class="skill-bar"><span>CSS</span><div class="bar"><div class="progress" style="width: 90%;"></div></div></div>
+      <div class="skill-bar"><span>Bootstrap (BS)</span><div class="bar"><div class="progress" style="width: 85%;"></div></div></div>
+    
+      <h1>Back-End & Web Services</h1>
+      <div class="skill-bar"><span>Web Services</span><div class="bar"><div class="progress" style="width: 60%;"></div></div></div>
+      <div class="skill-bar"><span>XML / JSON</span><div class="bar"><div class="progress" style="width: 75%;"></div></div></div>
+    
+      <h1>Databases</h1>
+      <div class="skill-bar"><span>SQL</span><div class="bar"><div class="progress" style="width: 75%;"></div></div></div>
+    
+      <h1>Mobile Development</h1>
+      <div class="skill-bar"><span>Android</span><div class="bar"><div class="progress" style="width: 70%;"></div></div></div>
+      <div class="skill-bar"><span>iOS</span><div class="bar"><div class="progress" style="width: 60%;"></div></div></div>
+    
+      <h1>Tools & Other Skills</h1>
+      <div class="skill-bar"><span>Design Patterns</span><div class="bar"><div class="progress" style="width: 65%;"></div></div></div>
+      <div class="skill-bar"><span>UML</span><div class="bar"><div class="progress" style="width: 85%;"></div></div></div>
+      <div class="skill-bar"><span>QA</span><div class="bar"><div class="progress" style="width: 65%;"></div></div></div>
+    
+      <button class="see-more">See more</button>
+    </section>
 
     <!-- Caixa de título "Portfolio" -->
     <section class="portfolio-title-box">
@@ -132,15 +92,45 @@
     <!-- Área de imagens e caixa ao lado -->
     <div class="portfolio-section">
       <div class="image-column">
-        <img src="minitalk.gif" alt="Imagem 1">
-        <img src="solong.gif" alt="Imagem 2">
+        <img src="minitalk.gif" alt="Imagem 1" style="border-radius: 12px;">
+        <img src="solong.gif" alt="Imagem 2" style="border-radius: 12px;">
       </div>
 
       <div class="portfolio-side-box">
-        <img src="pushswap.gif" alt="Imagem 3" style="width: 100%; height: 600px;">
-        <button class="see-more">See more</button>
+        <img src="pushswap.gif" alt="Imagem 3" style="width: 100%; height: 700px; border-radius: 12px;">
+        <a href=""><button class="see-more">See more</button></a>
       </div>
     </div>
+
+    <div class="contact-title-box">
+      <h2>Contacts</h2>
+    </div>
+
+    <section class="contact-section">
+      <!-- Caixa com os contactos -->
+      <div class="contact-info-box">
+        <h2>Contacts</h2>
+        <p><strong>Email:</strong> rcosta.skd@gmail.com</p>
+        <p><strong>Tel:</strong> +351 910 750 739</p>
+        <p><strong>Localização:</strong> Porto, Portugal</p>
+        <p><strong>Follow me:</strong></p>
+        <ul>
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">GitHub</a></li>
+        </ul>
+      </div>
+    
+      <!-- Caixa com o formulário -->
+      <div class="contact-form-box">
+        <h2>Envia uma mensagem</h2>
+        <form>
+          <input type="text" name="nome" placeholder="Name" required />
+          <input type="email" name="email" placeholder="Email" required />
+          <textarea name="mensagem" placeholder="Your Message" rows="6" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </section>
   </main>
 </body>
 </html>

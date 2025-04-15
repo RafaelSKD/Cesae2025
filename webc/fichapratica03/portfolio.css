@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
-    margin-right: 10px;
+    border-radius: 12px;
   }
   
   .image-column img {
@@ -10,52 +10,56 @@
     justify-content: center; /* Alinha horizontalmente no centro */
     align-items: center; /* Alinha verticalmente no centro */
     display: flex;
-    width: 690px;
-    height: 350px;
-    object-fit: cover;
+    width: 600px;
+    height: 500px;
+    object-fit: contain;
     border-radius: 8px;
-    background-color: #afafaf8c;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #afafaf00;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+    border-radius: 12px;
   }
   
   .portfolio-side-box {
     font-size: 45px;
-    width: 450px;
-    height: 690px;
-    color: #cccccc;
+    width: 400px;
+    height: 999px;
+    color: #cccccc00;
     padding: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     position: relative;
+    border-radius: 12px;
   }
   
   .portfolio-side-box p {
     font-size: 16px;
     line-height: 1.6;
+    border-radius: 12px;
   }
   
-  .skill-bar {
-    margin: 10px 0;
+  .content-box,
+  .portfolio-title-box {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0);
+    border-radius: 12px;
+    background-color: #afafaf8c;
   }
   
-  .skill-bar span {
-    font-weight: 600;
-    display: block;
-    margin-bottom: 5px;
+  .portfolio-title-box {
+    width: 1000px;
+    height: 150px;
+    color: #2c2c2c;
+    margin-bottom: 30px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
-  .bar {
-    background-color: #4d4d4d8c;
-    border-radius: 8px;
-    height: 20px;
-    overflow: hidden;
+  .portfolio-section {
+    display: flex;
+    gap: 10px;
+    width: 1000px;
+    margin-bottom: 200px;
+    border-radius: 12px;
   }
-  
-  .progress {
-    height: 100%;
-    background-color: #b9232391;
-    border-radius: 8px 0 0 8px;
-    transition: width 0.5s ease-in-out;
-  }
-  
