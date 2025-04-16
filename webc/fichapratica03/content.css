@@ -19,7 +19,7 @@
     width: 1000px;
     min-height: 200px;
     color: #2c2c2c;
-    margin-bottom: 100px;
+    margin-bottom: 100px !important;
     padding: 40px 40px 100px 40px;
   }
 
@@ -28,3 +28,13 @@
     flex-direction: column;
   }
   
+  .content-box .container {
+    margin-bottom: 50px !important;
+    text-align: left;  /* Alinha o texto dentro da caixa à esquerda */
+    padding: 20px;     /* Adiciona um pequeno espaço nas laterais, se necessário */
+}
+
+/* Mantendo os títulos centralizados */
+.content-box h2 {
+  text-align: center; /* Mantém os títulos centralizados */
+}

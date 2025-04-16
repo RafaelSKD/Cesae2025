@@ -1,0 +1,10 @@
+.img-right {
+    float: right;
+    opacity: 0.7;
+    width: 250px; /* Ajuste o tamanho da imagem conforme necessário */
+  }
+  
+  .container p {
+    text-align: justify;
+  }
+

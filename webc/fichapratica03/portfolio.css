@@ -30,6 +30,7 @@
     justify-content: space-between;
     position: relative;
     border-radius: 12px;
+    align-items: end;
   }
   
   .portfolio-side-box p {
@@ -43,17 +44,22 @@
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0);
     border-radius: 12px;
     background-color: #afafaf8c;
+    margin-bottom: 50px !important;
+    margin-top: 35px;
+    align-items: center;  /* Alinha o conteúdo verticalmente */
+    justify-content: center; /* Alinha o conteúdo horizontalmente */
+    text-align: center; /* Garante que o texto dentro do h2 também está centrado */
   }
   
   .portfolio-title-box {
     width: 1000px;
     height: 150px;
     color: #2c2c2c;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
     padding: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
   }
   
   .portfolio-section {

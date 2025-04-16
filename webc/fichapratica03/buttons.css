@@ -1,7 +1,7 @@
 .with-button .see-more,
 .portfolio-side-box .see-more {
     margin-top: 40px;
-    align-self: flex-end;
+    align-self: flex-end !important;
     background-color: #4d4d4d8c;
     color: #cccccc;
     border: none;
@@ -20,3 +20,23 @@
     color: #cccccc;
 }
  
+.see-more {
+    align-self: flex-end !important; /* Alinha o botão especificamente à direita */
+}
+
+.go-back-container a button {
+    background-color: #4d4d4d8c;
+    color: #cccccc;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.go-back-container a button:hover {
+    background-color: #4d4d4d8c;
+    color: #cccccc;
+}
