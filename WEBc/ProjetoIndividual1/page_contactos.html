@@ -1,52 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacts</title>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="contacts.css">
-    
-    <!-- Link do Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEJ03RxaZLPMIOfw9pu9pOTpYgPj9RpVV7yvvjk0S3md2aVsSxrrlpo8z6QZg" crossorigin="anonymous">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="globals.css" />
+  <link rel="stylesheet" href="contacts.css" />
+  <link rel="stylesheet" href="contactsform.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@400;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Jura:wght@400;700&display=swap" rel="stylesheet" />
+  <title>Contacts</title>
 </head>
 <body>
-    <div data-layer="Page_Contatos" class="PageContatos">
-        <img data-layer="img" class="img" src="img/camper.png" />
-        <div data-layer="Rectangle 5" class="Rectangle5"></div>
-        <div data-layer="Rectangle 6" class="Rectangle6"></div>
-        
-        <!-- Formulário -->
-        <form class="contact-form">
-            <div class="mb-3">
-                <label for="name" class="form-label text-white">Nome:</label>
-                <input type="text" class="form-control custom-input" id="name">
-            </div>
-            <div class="mb-3">
-                <label for="email" class="form-label text-white">Email:</label>
-                <input type="email" class="form-control custom-input" id="email">
-            </div>
-            <div class="mb-3">
-                <label for="message" class="form-label text-white">Mensagem:</label>
-                <textarea class="form-control custom-input2" id="message"></textarea>
-            </div>
-            <button type="submit" class="btn-submit">Enviar</button>
+  <div class="page-contatos">
+    <div class="overlap-group-wrapper">
+      <div class="overlap-group">
+        <img class="rectangle" src="img/sombra.png" />
+        <div class="div"></div>
+
+        <!-- Nome -->
+        <div class="text-wrapper">Nome:</div>
+        <div class="namebox"></div>
+        <div class="col-sm-7 .nome">
+          <input type="text" class="form-control" aria-label="City" />
+        </div>
+
+        <!-- Email -->
+        <div class="text-wrapper-2">Email:</div>
+        <form class="form-floating">
+          <input type="email" class="form-control" id="floatingInputValue" />
+          <label for="floatingInputValue"></label>
         </form>
 
-        <!-- Navegação -->
-        <div data-layer="Acomodação" class="AcomodaO">Acomodação</div>
-        <div data-layer="Locais" class="Locais">Locais</div>
-        <div data-layer="Blog" class="Blog">Blog</div>
-        <div data-layer="Contatos" class="Contatos">Contatos</div>
-        
-        <div data-layer="lines-leaning-solid 1" class="LinesLeaningSolid1">
-            <img src="/img/logohome.png" class="ImageVector">
+        <!-- Mensagem -->
+        <div class="text-wrapper-3">Mensagem:</div>
+        <div class="mensagem-input">
+          <textarea class="form-control" aria-label="Mensagem"></textarea>
         </div>
-    </div>
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9gyb3A0I1CbmPwF9JeRfuggT4g6zv7A19pK2vKeRrtzglA72xC9" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-cuAoHO8u2z6qd7X2ivIVG9ybwv7AqkndNYh+fey9tqgsR8HQQniO9vVcp7gFyb6s" crossorigin="anonymous"></script>
-</body>
-</html>
+        <!-- Checkbox oculto para controlar a exibição da caixa -->
+        <input type="checkbox" id="toggle" class="toggle" hidden />
+
+        <!-- Botão para abrir a caixa -->
+        <label for="toggle" id="abrirBox" class="button">Abrir Caixa</label>
+
+        <!-- Caixa que será mostrada/ocultada -->
+        <div class="box">
+          <label for="toggle" id="fecharBox" class="button">Fechar Caixa</label>
+          <p>Conteúdo dentro da caixa!</p>
+        </div>
+
+        <!-- Navbar -->
+        <div class="navbar">
+          <div class="acomoda-o">ACOMODAÇÃO</div>
+          <div class="locais">LOCAIS</div>
+          <div class="blog">BLOG</div>
+          <div class="contatos">CONTATOS</div>
+          <div class="lines-leaning-solid">
+            <img class="vector" src="img/logohome.png" />
+          </div>
+        </div>
