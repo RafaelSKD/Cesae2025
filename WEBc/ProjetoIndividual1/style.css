@@ -1,0 +1,544 @@
+.projeto {
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 100%;
+  }
+  
+  .projeto .div {
+	background-color: #ffffff;
+	overflow: hidden;
+	width: 1440px;
+	height: 3398px;
+	position: relative;
+  }
+  
+  .projeto .section-hero {
+	position: absolute;
+	width: 1448px;
+	height: 569px;
+	top: 816px;
+	left: 0;
+  }
+  
+  .projeto .overlap-group {
+	position: relative;
+	width: 1440px;
+	height: 569px;
+	background-color: #b49b2c40;
+  }
+  
+  .projeto .viva-livre-trabalhe {
+	position: absolute;
+	width: 575px;
+	height: 152px;
+	top: 209px;
+	left: 87px;
+	font-family: "Jura";
+	font-style: normal;
+	font-weight: 400;
+	color: transparent;
+	font-size: 43px;
+	letter-spacing: 8.60px;
+	line-height: 50.92px;
+
+  }
+  
+  .projeto .text-wrapper {
+	color: #000000;
+	letter-spacing: 8.60px;
+  }
+  
+  .projeto .span {
+	font-family: "Jura";
+	font-weight: 700;
+	color: #686931;
+	letter-spacing: 3.70px;
+  }
+  
+  .projeto .text-wrapper-2 {
+	position: absolute;
+	width: 300px;
+	top: 180px;
+	left: 918px;
+	font-family: "Jura";
+	font-weight: 700;
+	color: #000000;
+	font-size: 30px;
+	letter-spacing: 0;
+	line-height: 35.5px;
+	white-space: nowrap;
+  }
+  
+  .projeto .indeed-linkedin {
+	position: absolute;
+	width: 132px;
+	top: 270px;
+	left: 834px;
+	font-family: "Jura";
+	font-weight: 700;
+	color: #000000;
+	font-size: 20px;
+	letter-spacing: 0;
+	line-height: 23.7px;
+  }
+  
+  .projeto .indeed-linkedin-2 {
+	position: absolute;
+	width: 132px;
+	top: 270px;
+	left: 1152px;
+	font-family: "Jura";
+	font-weight: 700;
+	color: #000000;
+	font-size: 20px;
+	letter-spacing: 0;
+	line-height: 23.7px;
+  }
+
+  
+  .projeto .img {
+	position: absolute;
+	width: 50px;
+	height: 10px;
+	top: 226px;
+	left: 796px;
+	background-color: black;
+}
+.projeto .line {
+	position: absolute;
+	width: 1px;
+	height: 345px;
+	top: 112px;
+	left: 722px;
+	background: #000;
+}
+
+.projeto .line-2 {
+	position: absolute;
+	width: 10px;
+	height: 50px;
+	top: 226px;
+	left: 786px;
+	background-color: black; /* Preenchendo com preto */
+}
+  
+  .projeto .overlap {
+	position: absolute;
+	width: 60px;
+	height: 51px;
+	top: 396px;
+	left: 1302px;
+  }
+  
+  .projeto .line-3 {
+	position: absolute;
+	width: 50px;
+	height: 11px;
+	top: 40px;
+	left: 0;
+	background-color: black; 
+  }
+  
+  .projeto .line-4 {
+	position: absolute;
+	width: 11px;
+	height: 50px;
+	top: 0;
+	left: 49px;
+	background-color: black; 
+  }
+  
+  .projeto .section-acomodacao {
+	position: absolute;
+	width: 1440px;
+	height: 515px;
+	top: 1385px;
+	left: 0;
+  }
+  
+  .projeto .section-acomodao {
+	height: 515px;
+  }
+  
+  .projeto .overlap-2 {
+	position: relative;
+	width: 1440px;
+	height: 515px;
+  }
+  
+  .projeto .pexels-gya-den {
+	position: absolute;
+	width: 740px;
+	height: 515px;
+	top: 0;
+	left: 0;
+  }
+  
+  .projeto .frame {
+	width: 833px;
+	height: 515px;
+	left: 607px;
+	background: linear-gradient(
+		0deg,
+		rgba(0, 0, 0, 0.2) 0%,
+		rgba(0, 0, 0, 0.2) 100%
+	  ), linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 100%);
+	position: absolute;
+	top: 0;
+  }
+  
+  .projeto .p {
+	position: absolute;
+	width: 360px;
+	top: 185px;
+	left: 245px;
+	font-family: "Jura";
+	font-weight: 700;
+	color: #ffffff;
+	font-size: 30px;
+	text-align: center;
+	letter-spacing: 0;
+	line-height: 35.5px;
+  }
+  
+  .projeto .overlap-group-2 {
+	top: 297px;
+	left: 270px;
+	position: absolute;
+	width: 309px;
+	height: 77px;
+	border-radius: 35px;
+  }
+  
+  .projeto .rectangle {
+	top: 0;
+	left: 0;
+	border-radius: 35px;
+	border: 3px solid;
+	border-color: #ffffff;
+	position: absolute;
+	width: 309px;
+	height: 77px;
+  }
+  
+  .projeto .text-wrapper-3 {
+	position: absolute;
+	width: 130px;
+	height: 72px;
+	top: 23px;
+	left: 82px;
+	font-family: "Jura";
+	font-weight: 700;
+	color: #ffffff;
+	font-size: 25px;
+	letter-spacing: 0;
+	line-height: 29.6px;
+	white-space: nowrap;
+  }
+  
+  .projeto .arrow-up {
+	position: absolute;
+	width: 58px;
+	height: 58px;
+	top: 424px;
+	left: 756px;
+	border-radius: 29px;
+  }
+  
+  .projeto .vector {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  }
+  
+  .projeto .section-locais {
+	position: absolute;
+	width: 1440px;
+	height: 541px;
+	top: 1900px;
+	left: 0;
+  }
+  
+  .projeto .frame-2 {
+	width: 720px;
+	height: 541px;
+	left: 0;
+	background-color: #b49b2c40;
+	position: absolute;
+	top: 0;
+  }
+  
+  .projeto .text-wrapper-4 {
+	position: absolute;
+	width: 360px;
+	height: 72px;
+	top: 198px;
+	left: 179px;
+	font-family: "Jura";
+	font-weight: 700;
+	color: #000000;
+	font-size: 30px;
+	text-align: center;
+	letter-spacing: 0;
+	line-height: 35.5px;
+  }
+  
+  .projeto .overlap-group-3 {
+	top: 303px;
+	left: 205px;
+	position: absolute;
+	width: 309px;
+	height: 77px;
+	border-radius: 35px;
+  }
+  
+  .projeto .rectangle-2 {
+	position: absolute;
+	width: 309px;
+	height: 77px;
+	top: 0;
+	left: 0;
+	border-radius: 35px;
+	border: 3px solid;
+	border-color: #000000;
+  }
+  
+  .projeto .text-wrapper-5 {
+	position: absolute;
+	top: 23px;
+	left: 102px;
+	font-family: "Jura";
+	font-weight: 700;
+	color: #000000;
+	font-size: 25px;
+	letter-spacing: 0;
+	line-height: 29.6px;
+	white-space: nowrap;
+  }
+  
+  .projeto .vector-wrapper {
+	top: 445px;
+	left: 22px;
+	position: absolute;
+	width: 58px;
+	height: 58px;
+	border-radius: 29px;
+  }
+  
+  .projeto .pexels {
+	position: absolute;
+	width: 720px;
+	height: 541px;
+	top: 0;
+	left: 720px;
+  }
+  
+  .projeto .overlap-3 {
+	position: absolute;
+	width: 1442px;
+	height: 691px;
+	top: 2441px;
+	left: 0;
+  }
+  
+  .projeto .section-blog {
+	position: absolute;
+	width: 1442px;
+	height: 691px;
+	top: 0;
+	left: 0;
+  }
+  
+  .projeto .overlap-4 {
+	position: relative;
+	width: 1440px;
+	height: 691px;
+	background-image: url(./img/blog.png);
+	background-size: cover;
+	background-position: 50% 50%;
+  }
+  
+  .projeto .rectangle-3 {
+	top: 307px;
+	left: 565px;
+	position: absolute;
+	width: 309px;
+	height: 77px;
+  }
+  
+  .projeto .text-wrapper-6 {
+	width: 66px;
+	top: 326px;
+	left: 687px;
+	color: #ffffff;
+	position: absolute;
+	font-family: "Jura";
+	font-weight: 700;
+	font-size: 25px;
+	letter-spacing: 0;
+	line-height: 29.6px;
+  }
+  
+  .projeto .img-wrapper {
+	top: 604px;
+	left: 1361px;
+	position: absolute;
+	width: 58px;
+	height: 58px;
+	border-radius: 29px;
+  }
+  
+  .projeto .hero {
+	position: absolute;
+	width: 1476px;
+	height: 816px;
+	top: 0;
+	left: 0;
+  }
+  
+  .projeto .overlap-5 {
+	position: relative;
+	width: 1440px;
+	height: 816px;
+	background-image: url(./img/homeroad.png);
+	background-size: cover;
+	background-position: 50% 50%;
+  }
+  
+  .projeto .text-wrapper-7 {
+	position: absolute;
+	width: 693px;
+	top: 369px;
+	left: 373px;
+	font-family: "Josefin Slab";
+	font-weight: 700;
+	color: #ffffff;
+	font-size: 85px;
+	letter-spacing: 0;
+	line-height: normal;
+	white-space: nowrap;
+  }
+  
+  .projeto .text-wrapper-8 {
+	position: absolute;
+	top: 33px;
+	left: 780px;
+	font-family: "Jura";
+	font-weight: 700;
+	color: #000000;
+	font-size: 25px;
+	letter-spacing: 0;
+	line-height: 29.6px;
+	white-space: nowrap;
+  }
+  
+  .projeto .text-wrapper-9 {
+	position: absolute;
+	top: 33px;
+	left: 1025px;
+	font-family: "Jura";
+	font-weight: 700;
+	color: #000000;
+	font-size: 25px;
+	letter-spacing: 0;
+	line-height: 29.6px;
+	white-space: nowrap;
+  }
+  
+  .projeto .text-wrapper-10 {
+	top: 33px;
+	left: 1172px;
+	color: #000000;
+	white-space: nowrap;
+	position: absolute;
+	font-family: "Jura";
+	font-weight: 700;
+	font-size: 25px;
+	letter-spacing: 0;
+	line-height: 29.6px;
+  }
+  
+  .projeto .text-wrapper-11 {
+	position: absolute;
+	top: 33px;
+	left: 1287px;
+	font-family: "Jura";
+	font-weight: 700;
+	color: #000000;
+	font-size: 25px;
+	letter-spacing: 0;
+	line-height: 29.6px;
+	white-space: nowrap;
+  }
+  
+  .projeto .footer {
+	position: absolute;
+	width: 1444px;
+	height: 266px;
+	top: 3132px;
+	left: 0;
+	background-color: transparent;
+  }
+  
+  .projeto .overlap-6 {
+	position: relative;
+	width: 1440px;
+	height: 266px;
+	background-color: #000000;
+  }
+  
+  .projeto .text-wrapper-12 {
+	position: absolute;
+	top: 46px;
+	left: 603px;
+	font-family: "Jura";
+	font-weight: 700;
+	color: #ffffff;
+	font-size: 30px;
+	text-align: center;
+	letter-spacing: 0;
+	line-height: 35.5px;
+	white-space: nowrap;
+  }
+  
+  .projeto .vector-2 {
+	position: absolute;
+	width: 58px;
+	height: 57px;
+	top: 110px;
+	left: 607px;
+  }
+  
+  .projeto .vector-3 {
+	position: absolute;
+	width: 58px;
+	height: 57px;
+	top: 110px;
+	left: 691px;
+  }
+  
+  .projeto .vector-4 {
+	position: absolute;
+	width: 58px;
+	height: 57px;
+	top: 110px;
+	left: 775px;
+  }
+  
+  .projeto .text-wrapper-13 {
+	position: absolute;
+	top: 202px;
+	left: 631px;
+	font-family: "Jura";
+	font-weight: 700;
+	color: #ffffff;
+	font-size: 15px;
+	text-align: center;
+	letter-spacing: 0;
+	line-height: 17.8px;
+	white-space: nowrap;
+  }
+  

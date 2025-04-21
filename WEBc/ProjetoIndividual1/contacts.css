@@ -1,0 +1,158 @@
+
+/* Contorno da página */
+.Rectangle5 {
+    width: 1440px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.55);
+}
+
+.Rectangle6 {
+    width: 467px;
+    height: 700px;
+    left: 187px;
+    top: 207px;
+    position: absolute;
+    background: black;
+    border-radius: 30px;
+}
+
+/* Personalização do formulário */
+
+/* Campo Nome e Email */
+.custom-input {
+    width: 338px;
+    height: 76px;
+    background: white;
+    border-radius: 15px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Campo Mensagem */
+.custom-input2 {
+    width: 338px;
+    height: 161px;
+    background: white;
+    border-radius: 15px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-size: 16px;
+    resize: none; /* impede redimensionamento */
+}
+
+/* Botão Enviar */
+.btn-submit {
+    width: 338px;
+    height: 76px;
+	left: 254px;
+    top: px;
+    background: black;
+    color: white;
+    border-radius: 40px;
+    border: 3px solid white;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    line-height: 76px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #222;
+    color: white;
+}
+
+/* Layout geral do formulário */
+.contact-form {
+    position: absolute;
+    top: 259px;
+    left: 252px;
+    width: 338px;
+}
+
+/* Outros estilos do formulário */
+.contact-form .form-label {
+    font-family: 'Josefin Slab', serif;
+    font-weight: bold;
+}
+
+/* Posicionamento do nome, email e mensagem */
+#name {
+    left: 252px;
+    top: 283px;
+}
+
+#email {
+    left: 252px;
+    top: 405px;
+}
+
+#message {
+    left: 252px;
+    top: 528px;
+}
+
+/* Navegação */
+.AcomodaO,
+.Locais,
+.Blog,
+.Contatos {
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    font-family: 'Josefin Slab', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 25.02px;
+    word-wrap: break-word;
+}
+
+.AcomodaO {
+    width: 197px;
+    height: 37px;
+    left: 692px;
+    top: 72px;
+}
+
+.Locais {
+    width: 99px;
+    height: 37px;
+    left: 937px;
+    top: 72px;
+}
+
+.Blog {
+    width: 68px;
+    height: 37px;
+    left: 1084px;
+    top: 72px;
+}
+
+.Contatos {
+    width: 139px;
+    height: 37px;
+    left: 1199px;
+    top: 72px;
+}
+
+/* Logotipo */
+.LinesLeaningSolid1 {
+    width: 59px;
+    height: 70px;
+    left: 60px;
+    top: 39px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.ImageVector {
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
