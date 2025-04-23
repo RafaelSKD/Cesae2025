@@ -35,12 +35,8 @@ public class ex01 {
                     System.out.println("- Total: " + total);
                     break;
                 case "/":
-                    if (num2 != 0) {
-                        total = num1 / num2;
-                        System.out.println("- Total: " + total);
-                    } else {
-                        System.out.println("- Erro: Divisão por zero!");
-                    }
+                    total = num1 / num2;
+                    System.out.println("- Total: " + total);
                     break;
                 default:
                     System.out.println("- Operador inválido.");
