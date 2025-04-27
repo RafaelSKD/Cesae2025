@@ -1,0 +1,69 @@
+  .ride-card {
+	background-color: #D9D9D9;
+	border-radius: 35px;
+	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+	transition: box-shadow 0.3s ease;
+	overflow: hidden;
+	margin-top: 60px;
+	margin: 60px auto 0 auto;
+	max-width: 574px;
+
+	img {
+		padding: 12px;
+		padding-top: 22px;
+	  }
+	  
+  }
+  
+  .ride-info {
+	padding-top: 0;
+	padding-left: 50px;
+	padding-bottom: 20px;
+  }
+
+  .ride-info h3 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.ride-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #555;
+    display: block;
+    text-align: center;
+    margin-left: -50px !important;
+    margin-right: auto;
+}
+  
+  .ride-price {
+	font-weight: bold;
+	margin-bottom: 15px;
+	text-align: left;
+  }
+  
+  .ride-features {
+	list-style: none;
+	padding-left: 0;
+	color: #333;
+	font-weight: 600;
+	margin-bottom: 15px;
+	text-align: left;
+  }
+  
+  .ride-features li:first-child {
+	font-weight: bold;
+  }
+  
+  .ride-link {
+	display: inline-block;
+	color: #333;
+	text-decoration: none;
+	font-weight: bold;
+  }
+  
+  .ride-link:hover {
+	text-decoration: underline;
+  }

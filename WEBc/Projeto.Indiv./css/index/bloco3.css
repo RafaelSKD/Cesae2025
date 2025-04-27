@@ -1,0 +1,84 @@
+.bloco3{
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    height: 450px;
+    background-color: black;
+}
+.imagem-descobrir{
+    width: 100%;
+    height: 450px;
+    background-image: url(../../img/van.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+.titulo-descubra{
+    font-family: "Jura", sans-serif;
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+	text-align: center;
+    padding: 5% 20% 3% 20%;
+    font-size: 30px;      
+}
+
+#botao-descobrir{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    border: solid rgba(255, 255, 255, 1) 3px;
+    border-radius:35px;
+    font-size: 25px;
+    margin: 0% 30% 0% 30%;
+    padding: 2% 0% 2% 0%;
+}
+#arrow-up{
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    right: 15px;
+}
+@media (max-width: 992px) {
+    .bloco3 {
+      flex-direction: column;
+      height: auto;
+    }
+    .imagem-descobrir {
+      height: 300px;
+      background-size: cover;
+      width: 100%;
+    }
+    #titulo-descubra {
+      font-size: 24px;
+      padding: 5% 10% 3% 10%;
+    }
+    #botao-descobrir {
+      font-size: 20px;
+      margin: 0 25% 7%;
+      padding: 1.5% 30px 1.5% 30px;
+    }
+    #arrow-up {
+      width: 40px;
+      right: 10px;
+      bottom: 10px;
+    }
+  }
+  @media (max-width: 576px) {
+    .imagem-descobrir {
+      height: 200px;
+    }
+    #titulo-descubra {
+      font-size: 20px;
+      padding: 10% 8%;
+    }
+    #botao-descobrir {
+      font-size: 18px;
+      margin: 0 20% 30px;
+      padding: 1rem 0;
+    }
+    #arrow-up {
+      width: 30px;
+      right: 5px;
+      bottom: 5px;
+    }
+  }

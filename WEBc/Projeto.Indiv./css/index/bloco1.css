@@ -1,0 +1,61 @@
+.bloco1{
+    position: relative;
+    height: 816px;
+    background-image: url(../../img/homeroad.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+	max-width: 1440px;
+}
+
+  @media (max-width: 992px) {
+    .corpo1 {
+      flex-direction: column;
+      height: auto;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+  
+    .coluna1 {
+      font-size: 32px;
+      text-align: center;
+      line-height: 42px;
+      padding: 0;
+    }
+  
+    #linha {
+      border: none;
+      padding: 1rem 0;
+    }
+  
+    .trabalho {
+      padding-top: 1rem;
+      font-size: 24px;
+      text-align: center;
+    }
+    .remote-jobs-box {
+      flex-direction: column;
+      align-items: center;
+      font-size: 18px;
+      padding: 1rem;
+      gap: 1rem;
+    }
+    .remote-jobs-box ul {
+      margin-top: 30px;
+    }
+  }
+  @media (max-width: 576px) {
+    .coluna1 {
+      font-size: 24px;
+      line-height: 36px;
+    }
+    .trabalho {
+      font-size: 20px;
+    }
+    .remote-jobs-box {
+      font-size: 16px;
+    }
+    .remote-jobs-box ul {
+        margin-top: 30px;
+      }
+  }

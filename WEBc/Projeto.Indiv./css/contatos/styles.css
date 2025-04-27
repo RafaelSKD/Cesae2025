@@ -1,0 +1,70 @@
+body {
+	margin: 0;
+	font-family: Jura;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	background-color: black !important;
+}
+
+.bloco1 {
+	display: flex;
+	flex-direction: column; /* opcional */
+	max-width: 1440px;
+	max-height: 1024px;
+	width: 100%;
+	background:
+	linear-gradient(
+	  rgba(0, 0, 0, 0.4)),
+	url("../../img/camper.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+  
+  .hero {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	
+  }
+  
+  .container {
+	flex-grow: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 50px;
+  }
+  
+  .form-section {
+	  margin-top: 100px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 992px) {
+	.container {
+	  padding: 30px;
+	}
+	.text-right {
+	  text-align: left;
+	  margin-top: 30px;
+	}
+  }
+  
+  @media (max-width: 768px) {
+	.navbar {
+	  padding: 15px 20px;
+	}
+	.navbar-brand {
+	  font-size: 1.5em;
+	}
+	.nav-link {
+	  margin-left: 10px;
+	  font-size: 0.9em;
+	}
+	.contact-form {
+	  padding: 30px;
+	}
+  }
+  

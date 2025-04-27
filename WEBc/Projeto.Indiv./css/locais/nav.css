@@ -1,0 +1,33 @@
+.navbar-nav {
+	margin-right: 102px;
+	margin-top: 72px;
+  }
+
+.navbar {
+	padding: 20px 50px;
+	color: #FFF;
+	font-family: "Josefin Slab";
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 100.1%; /* 25.025px */
+	text-transform: uppercase;
+  }
+  
+  .navbar-brand {
+	font-size: 2em;
+	font-weight: bold;
+  }
+  
+  .nav-link {
+	color: white !important;
+	margin-left: 20px;
+  }
+  
+  .nav-link:hover {
+	color: rgba(255, 255, 255, 0.8) !important;
+  }
+
+  .navbar-brand img {
+	margin-left: 60px; /* ou 30px, conforme precisares */
+  }

@@ -1,0 +1,26 @@
+.blockquote {
+	background: none;
+	padding: 20px;
+	margin-bottom: 0;
+  }
+  
+  .blockquote-footer {
+	color: #FFF !important;
+	font-family: Jura !important;
+	font-size: 20px !important;
+	font-style: normal !important;
+	font-weight: 700 !important;
+	line-height: 118.418% !important;
+	margin-top: 10px !important;
+  }
+  
+  .text-right {
+	text-align: right;
+	color: #FFF;
+	font-family: Jura !important;
+	font-size: 25px !important;
+	font-style: normal !important;
+	font-weight: 700 !important;
+	line-height: 118.418% !important; 
+	
+  }
