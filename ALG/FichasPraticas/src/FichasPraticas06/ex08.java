@@ -1,9 +1,12 @@
 package FichasPraticas06;
 
+import java.util.Scanner;
+
 public class ex08 {
     static void somarMatrizes(int[ ][ ] matriz1, int[ ][ ] matriz2){
         int x, y = 0;
 
+        System.out.println("\n");
         while (y < matriz1[0].length)
         {
             x = 0;
@@ -41,16 +44,32 @@ public class ex08 {
             }
             y++;
         }
-        System.out.print(soma);
+        System.out.println("\nA soma dos Arrays de Arrays e: " + soma);
         return soma;
     }
 
     public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
         int[ ][ ] matriz1 = new int[3][3];
         int[ ][ ] matriz2 = new int[3][3];
         int somatorio;
 
-// Inicializar matriz
+    System.out.println("Preencha a matriz1:");
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+        System.out.print("matriz1[" + i + "][" + j + "]: ");
+        matriz1[i][j] = input.nextInt();
+        }
+    }
+
+    System.out.println("Preencha a matriz2:");
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+        System.out.print("matriz2[" + i + "][" + j + "]: ");
+        matriz2[i][j] = input.nextInt();
+        }
+    }
 
         somarMatrizes(matriz1, matriz2);
         somatorio = somatorioMatrizes(matriz1, matriz2);
