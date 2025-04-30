@@ -16,13 +16,12 @@ public class ex05 {
         while (j < 12){
             k = j + 1;
             while (k < 12){
-                if (vetor[j] == vetor [k]){
+                if (vetor[j] == vetor[k]){
                     System.out.println("- Array[" + j + "] = Array[" + k + "]  = " + vetor[j]);
                 }
                 k++;
             }
             j++;
         }
-
     }
 }
