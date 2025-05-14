@@ -1,0 +1,8 @@
+item seccao produto quantidade valor
+1 frutas laranja 1.5 1.3
+2 frutas pera 2.15 4.35
+3 frutas melao 3.45 2.2
+4 talho picanha 0.7 12.5
+5 talho frango 0.75 5.0
+6 bebidas agua 6 3.0
+7 bebidas coca-cola 2 2.30

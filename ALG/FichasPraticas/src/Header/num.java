@@ -1,5 +1,10 @@
 package Header;
 
+import java.util.Scanner;
+
+import static Header.array.*;
+import static Header.print.*;
+import static Header.num.*;
 public class num {
     public static boolean isParZero(int    num){
         if (num == 0)
@@ -39,5 +44,21 @@ public class num {
         if (num < 0)
             return true;
         return false;
+    }
+
+    public static int countNumbers(int num) {
+        int count = 0;
+
+        if (num == 0)
+            return 1;
+        if (num < 0){
+            num = -num;
+            count++;
+        }
+        while (num > 0) {
+            count++;
+            num = num / 10;
+        }
+        return count;
     }
 }

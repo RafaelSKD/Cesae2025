@@ -1,3 +1,3 @@
-let myFirstVar = "hello world";
+// let myFirstVar = "hello world";
 
-console.log(myFirstVar);
+// console.log(myFirstVar);

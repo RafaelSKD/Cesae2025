@@ -1,0 +1,7 @@
+
+hello world
+
+Para escrever no ficheiro
+Estou a usar o formatter
+Mas ja usei o printWriter
+222

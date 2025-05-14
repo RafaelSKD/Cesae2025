@@ -1,11 +1,10 @@
 package FichasExtra.ArraysMatrizes;
 
-import Header.num;
-
 import java.util.Scanner;
 
 import static Header.array.*;
 import static Header.print.*;
+import static Header.num.*;
 
 public class ex12 {
     public static void main(String[] args) {
@@ -30,31 +29,21 @@ public class ex12 {
         int i = 0, k, num, count = 0, flag = 0;
 
 
-        while (i < array1.length){ // verificar nums se repetem array 1
-
+        while (i < array1.length) {
             num = array1[i];
-            k = 0;
+            flag = 0;
+            k = i + 1;// Verificar no array1 so para a frente
 
-            while (k < i){  // verificar se num já apareceu antes no array1
-                if (num == array1[k]){
+            while (k < array1.length) {
+                if (num == array1[k]) {
                     flag = 1;
                     break;
                 }
                 k++;
             }
 
-            if (flag == 0){  // ler no array 2 se nao encontrou no array 1
-                k = i + 1;
-                while (k < array1.length){
-                    if (num == array1[k]){
-                        flag = 1;
-                        break;
-                    }
-                    k++;
-                }
-            }
-
-            if (flag == 0) { // se não se repetiu no array1, verificar se aparece no array2
+            // Se não encontrar verificar no array2
+            if (flag == 0) {
                 k = 0;
                 while (k < array2.length) {
                     if (num == array2[k]) {
@@ -64,88 +53,90 @@ public class ex12 {
                     k++;
                 }
             }
-
-            if (flag == 0)
-                count++; // se nao acionou a flag quer dizer que nao aparece mais
-
-            i++;  // next
+            // Se não aparece em lugar nenhum, contar
+            if (flag == 0) {
+                count++;
+            }
+            i++;
         }
 
         i = 0;
-        while (i < array2.length){  // verificar se num já apareceu antes no array2
+        while (i < array2.length) {
             num = array2[i];
-            k = 0;
             flag = 0;
+            k = i + 1;// Verificar no array2 so para a frente
 
-            while (k < i){
-                if (num == array2[k]){
+            while (k < array2.length) {
+                if (num == array2[k]) {
                     flag = 1;
                     break;
                 }
                 k++;
             }
-
-            if (flag == 0) { // verificar se num se repete mais à frente no array2
-                k = i + 1;
-                while (k < array2.length) {
-                    if (num == array2[k]) {
-                        flag = 1;
-                        break;
-                    }
-                    k++;
-                }
-            }
-
-            if (flag == 0)
+            // Se não aparece em lugar nenhum, contar
+            if (flag == 0) {
                 count++;
-
+            }
             i++;
         }
         return count;
     }
 
-    public static void fillNewArray(int[] array1, int[] array2, int[] array3){
-        int i = 0, k, num, flag = 0, index = 0;
+    public static void fillNewArray(int[] array1, int[] array2, int[] array3) {
+        int i = 0, k, num, index = 0, flag = 0;
 
 
-        while (i < array1.length){  // verificar nums se repetem array 1
+        while (i < array1.length) {
             num = array1[i];
-            k = i + 1;  // verifica o que esta a frente
-            while (k < array1.length){  // ler no array 1
-                if (num == array1[k]){
+            flag = 0;
+            k = i + 1;// Verificar no array1 so para a frente
+
+            while (k < array1.length) {
+                if (num == array1[k]) {
                     flag = 1;
                     break;
                 }
                 k++;
             }
-            if (flag == 0){  // ler no array 2 se nao encontrou no array 1
+
+            // Se não encontrar verificar no array2
+            if (flag == 0) {
                 k = 0;
-                while (k < array2.length){
-                    if (num == array2[k])
+                while (k < array2.length) {
+                    if (num == array2[k]) {
+                        flag = 1;
                         break;
+                    }
                     k++;
                 }
-                k--; // para voltar ao verificado acima
-                array3[index] = num; // se nao encontrou em lado a frente dele quer dizer que e o ultimo
+            }
+            // Se não aparece em lugar nenhum, adicionar
+            if (flag == 0) {
+                array3[index] = num;
                 index++;
             }
-            i++;  // next
+            i++;
         }
+
         i = 0;
-        while (i < array2.length){  // verificar nums array 2
+        while (i < array2.length) {
             num = array2[i];
-            k = i + 1; // verifica o que esta a frente
-            while (k < array2.length){
-                if (num == array2[k])
+            flag = 0;
+            k = i + 1;// Verificar no array2 so para a frente
+
+            while (k < array2.length) {
+                if (num == array2[k]) {
+                    flag = 1;
                     break;
+                }
                 k++;
             }
-            k--; // para voltar ao verificado acima
-            array3[index] = num; // se nao encontrou em lado a frente dele quer dizer que e o ultimo
-            index++;
-            i++;  // next
+            // Se não aparece em lugar nenhum, adicionar
+            if (flag == 0) {
+                array3[index] = num;
+                index++;
+            }
+            i++;
         }
-        array3[index] = array2[array2.length - 1]; // o ultimo numero nao tem nenum a frente
     }
 }
-
