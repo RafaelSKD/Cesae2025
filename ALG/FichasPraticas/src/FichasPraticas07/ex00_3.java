@@ -16,7 +16,7 @@ public class ex00_3 {
     }
 
     public static void totalGastoSeccao(String seccao) throws FileNotFoundException{
-        Scanner data = new Scanner(new File("src/FichasPraticas07/data.txt"));
+        Scanner data = new Scanner(new File("src/FichasPraticas07/NewFiles/data.txt"));
 
         String linha = data.nextLine();
         int item;

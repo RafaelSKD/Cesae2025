@@ -15,21 +15,30 @@ public class ex01 {
     }
 
     public static void lerLinhasInteirasdoFicheiro() throws FileNotFoundException{
-        Scanner data = new Scanner(new File("src/FichasPraticas07/Ficheiros/exercicio_01.txt"));
-        File file = new File("src/FichasPraticas07/Ficheiros/exercicio_01_newFile.txt"));
-        Formatter formatter = new Formatter(file);
-
+        File file1 = new File("C:/Users/sw13/Desktop/Cesae2025/ALG/FichasPraticas/src/FichasPraticas07/Ficheiros/exercicio_01.txt");
+        File file2 = new File("C:/Users/sw13/Desktop/Cesae2025/ALG/FichasPraticas/src/FichasPraticas07/Ficheiros/exercicio_01_Alternativa01.txt");
+        File file3 = new File("C:/Users/sw13/Desktop/Cesae2025/ALG/FichasPraticas/src/FichasPraticas07/Ficheiros/exercicio_01_Alternativa02.txt");
+        Scanner scanner1 = new Scanner(file1);
+        Scanner scanner2 = new Scanner(file2);
+        Scanner scanner3 = new Scanner(file3);
+        System.out.println();
         String linha;
-
-        String texto = "programação";
-        formatter.format(texto);
-
-        while (data.hasNextLine()){
-            linha = data.nextLine();
-            linha.hasNextLine();
-
+        while (scanner1.hasNextLine()){
+            linha = scanner1.nextLine();
+            System.out.println(linha);
         }
-
-        data.close();
+        System.out.println("\n");
+        while (scanner2.hasNextLine()){
+            linha = scanner2.nextLine();
+            System.out.println(linha);
+        }
+        System.out.println("\n");
+        while (scanner3.hasNextLine()){
+            linha = scanner3.nextLine();
+            System.out.println(linha);
+        }
+        scanner1.close();
+        scanner2.close();
+        scanner3.close();
     }
 }

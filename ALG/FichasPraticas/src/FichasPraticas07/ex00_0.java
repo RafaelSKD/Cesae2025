@@ -23,7 +23,7 @@ public class ex00_0 {
 
         String fileContent = "hello world";
 
-        File file = new File("C:/Users/sw13/Desktop/Cesae2025/ALG/FichasPraticas/src/FichasPraticas07/ex00_0_PW_Output.txt");
+        File file = new File("C:/Users/sw13/Desktop/Cesae2025/ALG/FichasPraticas/src/FichasPraticas07/NewFiles/ex00_0_PW_Output.txt");
 
         PrintWriter printWriter = new PrintWriter(file);
 
@@ -38,7 +38,7 @@ public class ex00_0 {
 
         String fileContent = "\nhello world";
 
-        File file = new File("C:/Users/sw13/Desktop/Cesae2025/ALG/FichasPraticas/src/FichasPraticas07/ex00_0_F_Output.txt");
+        File file = new File("C:/Users/sw13/Desktop/Cesae2025/ALG/FichasPraticas/src/FichasPraticas07/NewFiles/ex00_0_F_Output.txt");
 
         Formatter formatter = new Formatter(file);
 
@@ -53,7 +53,7 @@ public class ex00_0 {
 
     public static void usingScanner() throws FileNotFoundException {
 
-        File file = new File("C:/Users/sw13/Desktop/Cesae2025/ALG/FichasPraticas/src/FichasPraticas07/ex00_0_F_Output.txt");
+        File file = new File("C:/Users/sw13/Desktop/Cesae2025/ALG/FichasPraticas/src/FichasPraticas07/NewFiles/ex00_0_F_Output.txt");
         Scanner scanner = new Scanner(file);
 
         System.out.println(scanner.nextLine());

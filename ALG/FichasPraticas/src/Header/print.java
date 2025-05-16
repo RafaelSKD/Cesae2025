@@ -6,7 +6,12 @@ import static Header.print.*;
 import static Header.num.*;
 
 public class print {
-    public static void printArray(int[] array){
+    public static void printArrayOfInt(int[] array){
+        for (int i = 0; i < array.length; i++)
+            System.out.println("- Array[" + i + "] = " + array[i]);
+    }
+
+    public static void printArrayOfStr(String[] array){
         for (int i = 0; i < array.length; i++)
             System.out.println("- Array[" + i + "] = " + array[i]);
     }

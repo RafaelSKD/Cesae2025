@@ -15,7 +15,7 @@ public class ex00_2 {
     }
 
     public static void calcularTotaldasCompras() throws FileNotFoundException{
-        Scanner data = new Scanner(new File("C:/Users/sw13/Desktop/Cesae2025/ALG/FichasPraticas/src/FichasPraticas07/data.txt"));
+        Scanner data = new Scanner(new File("C:/Users/sw13/Desktop/Cesae2025/ALG/FichasPraticas/src/FichasPraticas07/NewFiles/data.txt"));
 
         String linha = data.nextLine();
 

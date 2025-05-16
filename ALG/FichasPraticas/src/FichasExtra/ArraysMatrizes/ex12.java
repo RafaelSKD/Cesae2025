@@ -22,7 +22,7 @@ public class ex12 {
         int[] array3 = new int[tam];
         fillNewArray(array1, array2, array3);
         System.out.println("\n- Array 3:");
-        printArray(array3);
+        printArrayOfInt(array3);
     }
 
     public static int countSingleNumbers(int[] array1, int[] array2) {

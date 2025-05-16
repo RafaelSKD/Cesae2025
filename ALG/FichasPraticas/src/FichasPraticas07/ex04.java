@@ -2,9 +2,10 @@ package FichasPraticas07;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.util.Formatter;
 import java.util.Scanner;
 
-public class ex00_1 {
+public class ex04 {
     public static void main(String[] args) {
         try {
             lerLinhasInteirasdoFicheiro();
@@ -14,14 +15,14 @@ public class ex00_1 {
     }
 
     public static void lerLinhasInteirasdoFicheiro() throws FileNotFoundException{
-        Scanner data = new Scanner(new File("C:/Users/sw13/Desktop/Cesae2025/ALG/FichasPraticas/src/FichasPraticas07/NewFiles/data.txt"));
-
-        String linha = data.nextLine();
-        while (data.hasNextLine()){
-            linha = data.nextLine();
+        File file1 = new File("src/FichasPraticas07/Ficheiros/exercicio_04.csv");
+        Scanner scanner1 = new Scanner(file1);
+        System.out.println();
+        String linha;
+        while (scanner1.hasNextLine()){
+            linha = scanner1.nextLine();
             System.out.println(linha);
         }
-
-        data.close();
+        scanner1.close();
     }
 }
